@@ -1,8 +1,20 @@
-import React from 'react'
+//import { useState } from 'react';
+import { longlogo } from '../assets';
+import {Button} from "../components";
 
 const Navbar = () => {
+
+  //const [toggle, setToggle] = useState(false);
+
   return (
-	<div>Navbar</div>
+    
+    <nav className='w-full flex py-0 justify-between items-center navbar'>
+      <img src={longlogo} alt="longlogo" className="w-[250px]"/>
+      <Button />
+    </nav>
+
+    
+
   )
 }
 
