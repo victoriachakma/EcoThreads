@@ -1,3 +1,5 @@
+import { instagram } from "../assets";
+
 export const footerLinks = [
     {
       title: "Useful Links",
@@ -86,4 +88,23 @@ export const footerLinks = [
       link: "https://www.linkedin.com/",
     },
   ];
+
+export const ourTeam = [
+  {
+    icon: instagram,
+    name: "Victoria Chakma",
+  },
+  {
+    icon: instagram,
+    name: "Kelly Ng",
+  },
+  {
+    icon: instagram,
+    name: "Grace Tse",
+  },
+  {
+    icon: instagram,
+    name: "Billie Zhang",
+  },
+];
   
