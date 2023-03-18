@@ -1,69 +1,21 @@
-import { instagram } from "../assets";
+import { instagram, facebook, linkedin, twitter } from "../assets";
 
 export const footerLinks = [
     {
-      title: "Useful Links",
+      title: "Contact Us",
       links: [
         {
-          name: "Content",
-          link: "https://www.google.ca/",
+          name: "Phone: (647)-386-3478",
         },
         {
-          name: "How it Works",
-          link: "https://www.google.ca/",
+          name: "Email: hello@ecothreads.org",
         },
         {
-          name: "Create",
-          link: "https://www.google.ca/",
-        },
-        {
-          name: "Explore",
-          link: "https://www.google.ca/",
-        },
-        {
-          name: "Terms & Services",
-          link: "https://www.google.ca/",
+          name: "Address",
         },
       ],
     },
-    {
-      title: "Community",
-      links: [
-        {
-          name: "Help Center",
-          link: "https://www.google.ca/",
-        },
-        {
-          name: "Partners",
-          link: "https://www.google.ca/",
-        },
-        {
-          name: "Suggestions",
-          link: "https://www.google.ca/",
-        },
-        {
-          name: "Blog",
-          link: "https://www.google.ca/",
-        },
-        {
-          name: "Newsletters",
-          link: "https://www.google.ca/",
-        },
-      ],
-    },
-    {
-      title: "Partner",
-      links: [
-        {
-          name: "Our Partner",
-          link: "https://www.google.ca/",
-        },
-        {
-          name: "Become a Partner",
-          link: "https://www.google.ca/",
-        },
-      ],
-    },
+
   ];
   
   export const socialMedia = [
