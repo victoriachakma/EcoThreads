@@ -1,5 +1,5 @@
 import styles from './style';
-import { Navbar, Footer} from './components';
+import { Navbar, Footer, About, Hero } from './components';
 
 const App = () => (
     
@@ -11,11 +11,13 @@ const App = () => (
     </div>
     </div>
 
-      <div className={` bg-olive ${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}>
-          <Footer />
-        </div>
+    <div className={` bg-olive ${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
+        <Hero />
+        <About />
+        <Footer />
       </div>
+    </div>
       
   </div>
 
