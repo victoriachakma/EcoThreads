@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './style';
 import { Navbar, Footer} from './components';
 
@@ -18,12 +17,11 @@ const App = () => (
         </div>
       </div>
 
-        <div className={` bg-olive ${styles.paddingX} ${styles.flexCenter}`}>
-          <div className={`${styles.boxWidth}`}>
-            <Footer />
-          </div>
+      <div className={` bg-olive ${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Footer />
         </div>
-
+      </div>
   </div>
 
 );
