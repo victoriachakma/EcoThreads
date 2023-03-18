@@ -11,6 +11,7 @@ module.exports = {
         tea: "#C3DAC3",
         green: "#D5ECD4",
         mimi: "#FFD6DC",
+        dimWhite: "#F5F6EE"
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
