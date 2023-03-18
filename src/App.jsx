@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import styles from './style';
 
 const App = () => {
   return (
@@ -7,7 +8,7 @@ const App = () => {
       <div className="bg-olive w-full overflow-hidden">
         <div className={`${styles.paddingX} ${styles.flexCenter}`}>
           <div className={`${styles.boxWidth}`}>
-            <Navbar />
+            <h1>Hello world!</h1>
           </div>
         </div>
       </div>
@@ -17,14 +18,3 @@ const App = () => {
 }
 
 export default App
-
-{/*<div className="bg-olive w-full overflow-hidden">
-
-    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
-        <h1>NAVBAR</h1>
-      </div>
-        
-    </div>
-    
-</div>*/}
