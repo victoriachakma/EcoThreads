@@ -1,16 +1,25 @@
 import React from 'react';
 import styles from './style';
+import { Navbar, Footer} from './components';
 
 const App = () => {
   return (
     <div>
 
       <div className="bg-olive w-full overflow-hidden">
+
         <div className={`${styles.paddingX} ${styles.flexCenter}`}>
           <div className={`${styles.boxWidth}`}>
-            <h1>Hello world!</h1>
+            <Navbar />
           </div>
         </div>
+
+        <div className={` bg-olive ${styles.paddingX} ${styles.flexCenter}`}>
+          <div className={`${styles.boxWidth}`}>
+            <Footer />
+          </div>
+        </div>
+
       </div>
 
     </div>
