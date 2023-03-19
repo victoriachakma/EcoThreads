@@ -8,6 +8,7 @@ import bollo from "./bollo.jpg";
 import grace from "./grace.jpg";
 import kelly from "./kelly.jpg";
 import vic from "./vic.jpg";
+import result from "./result.png";
 
 
 export {
@@ -21,4 +22,5 @@ export {
   grace,
   kelly,
   vic,
+  result,
 };
