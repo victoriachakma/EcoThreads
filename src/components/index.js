@@ -2,7 +2,7 @@ import About from './About';
 import Button from './Button';
 import Footer from './Footer';
 import Hero from './Hero';
-import Involved from './Involved';
+import Prototype from './Prototype';
 import Navbar from  './Navbar';
 
 export {
@@ -10,6 +10,6 @@ export {
 	Button, 
 	Footer,
 	Hero,
-	Involved,
+	Prototype,
 	Navbar,
 }
