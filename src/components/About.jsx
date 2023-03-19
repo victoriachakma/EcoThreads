@@ -4,7 +4,7 @@ import { vic, kelly, grace, bollo } from '../assets';
 
 const about = () => (
   <div>
-    <h1>Our Team</h1>
+    <h1 className='flex-1 font-poppins font-semibold text-center s:text-[72px] text-[52px] text-olive ss:leading-[100px] leading-[75px]'>Our Team</h1>
       <div class="gap-20 columns-4">
         <img src={vic} alt="victoria" className="w-[250px] rounded-full"/>
         <img src={kelly} alt="kelly" className="w-[250px] rounded-full"/>
