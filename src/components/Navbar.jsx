@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     
     <nav className='w-full flex py-0 justify-between items-center navbar'>
-      <img src={longlogo} alt="longlogo" className="w-[250px]"/>
+      <img src={longlogo} alt="longlogo" className="w-[350px]"/>
       <Button />
     </nav>
 
