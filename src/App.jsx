@@ -17,13 +17,13 @@ const App = () => (
       </div>
     </div>
 
-    <div className={`bg-dimWhite ${styles.flexStart}`}>
+    <div className={`bg-dimWhite mb-0 ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Prototype />
       </div>
     </div>
 
-    <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexCenter}`}>
+    <div className={`bg-dimWhite ${styles.paddingP}`}>
       <iframe 
         style={{
         width: "460px",
