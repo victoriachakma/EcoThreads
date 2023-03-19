@@ -4,13 +4,13 @@ import { vic, kelly, grace, bollo } from '../assets';
 const about = () => (
   <div>
     <h1 className='flex-1 font-poppins font-semibold text-olive text-center text-[52px] pt-10 pb-8'>Our Team</h1>
-      <div class="gap-20 columns-4">
-        <img src={vic} alt="victoria" className="w-[250px] rounded-full"/>
-        <img src={kelly} alt="kelly" className="w-[250px] rounded-full"/>
-        <img src={grace} alt="grace" className="w-[250px] rounded-full"/>
-        <img src={bollo} alt="billie" className="w-[250px] rounded-full"/>
+      <div class="gap-20 columns-4 px-10">
+        <img src={vic} alt="victoria" className="w-full rounded-full"/>
+        <img src={kelly} alt="kelly" className="w-full rounded-full"/>
+        <img src={grace} alt="grace" className="w-full rounded-full"/>
+        <img src={bollo} alt="billie" className="w-full rounded-full"/>
       </div>
-      <div class="gap-20 columns-4 pt-3 pb-6">
+      <div class="gap-20 columns-4 px-10 pt-3 pb-6">
         <h2 className='flex-1 font-poppins font-semibold text-olive text-center text-[22px]'>Victoria Chakma</h2>
         <h2 className='flex-1 font-poppins font-semibold text-olive text-center text-[22px]'>Kelly Ng</h2>
         <h2 className='flex-1 font-poppins font-semibold text-olive text-center text-[22px]'>Grace Tse</h2>

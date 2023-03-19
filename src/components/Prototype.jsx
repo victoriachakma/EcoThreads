@@ -19,7 +19,7 @@ const Prototype = () => (
           src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FwWFkWVNMtbnDAaGo3Nx9Bi%2FEcoThreads%3Fpage-id%3D6%253A18%26node-id%3D6-21%26viewport%3D-122%252C469%252C0.45%26scaling%3Dscale-down%22%3E">
         </iframe>
       </div>
-      <div className={`flex flex-col ss:my-0 my-4 min-w-[150px] mr-16`}>
+      <div className={`flex flex-col ss:my-0 my-4 min-w-[150px] mr-40`}>
       {prototypeText.map((text) => (
           <div key={text.title} className={`flex flex-col ss:my-0 my-0 min-w-[150px]`}>
             <h4 className="font-poppins font-medium text-[36px] leading-[37px] text-olive mb-3">
