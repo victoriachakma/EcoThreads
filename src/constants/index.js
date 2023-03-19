@@ -11,7 +11,7 @@ export const footerLinks = [
           name: "Email: hello@ecothreads.org",
         },
         {
-          name: "Address",
+          name: "",
         },
       ],
     },
