@@ -10,9 +10,6 @@ export const footerLinks = [
         {
           name: "Email: hello@ecothreads.org",
         },
-        {
-          name: "",
-        },
       ],
     },
 
@@ -41,22 +38,19 @@ export const footerLinks = [
     },
   ];
 
-export const ourTeam = [
+export const prototypeText = [
   {
-    icon: instagram,
-    name: "Victoria Chakma",
+    title: "Your Closet",
+    desc: "all your clothes in one place. organized into categories.",
+  },
+
+  {
+    title: "Your Friends",
+    desc: "connect with your friends. coordinate your outfits. borrow clothes when you're in a cinch.",
   },
   {
-    icon: instagram,
-    name: "Kelly Ng",
+    title: "Your Carbon Footprint",
+    desc: "reduce your carbon footprint while looking more fashionable everyday.",
   },
-  {
-    icon: instagram,
-    name: "Grace Tse",
-  },
-  {
-    icon: instagram,
-    name: "Billie Zhang",
-  },
+
 ];
-  
